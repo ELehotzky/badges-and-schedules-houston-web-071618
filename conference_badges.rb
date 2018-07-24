@@ -19,6 +19,6 @@ def assign_rooms(speakers)
   list
 end
 
-def printer
+def printer(attendees)
   
 end
