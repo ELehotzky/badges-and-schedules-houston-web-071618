@@ -13,6 +13,6 @@ end
 def assign_rooms(speakers)
   list = {}
   speakers.each_with_index do |room, index|
-    
+    list[room] = index
   
 end
