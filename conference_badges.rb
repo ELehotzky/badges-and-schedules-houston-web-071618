@@ -12,7 +12,7 @@ end
 
 def assign_rooms(speakers)
   list = []
-  speakers.each_with_index do |room, index|
+  speakers.each_with_index do |name, index|
     message = "Hello, #{name}! You'll be assigned to room #{index + 1}!"
     list << message
   end
